@@ -6,7 +6,7 @@ routes.get('/', (req, res) => {
 })
 
 routes.get('/perguntas', (req, res) => {
-    res.send('Página de perguntas - API')
+    res.send('Rota de perguntas - API')
 })
 
 module.exports = routes;
